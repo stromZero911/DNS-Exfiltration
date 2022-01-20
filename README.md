@@ -9,8 +9,9 @@ A script to perform DNS Exfiltration and setting up DNS Server on Ubuntu Server 
 ![String](https://github.com/saai-sudarsanan-d/DNS-Exfiltration/blob/main/imgs/string-exfil-demo.png)
 
 If you want to test it out on your own VM
-**Use this link:** 
+**Use this link to setup DNS:** 
+
 `https://www.fosslinux.com/7631/how-to-install-and-configure-dns-on-ubuntu.htm'
 
-`# TODO
+# TODO
 Add a decryption script
